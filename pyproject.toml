@@ -26,10 +26,6 @@ dev = ["databricks-connect>=16.0, <17",
        "pip>=25.0.1, <26",
        "pre-commit>=4.1.0, <5"]
 
-test = ["pre-commit>=4.1.0, <5",
-       "pytest>=8.0.0, <9",
-       "pytest-cov>=5.0.0, <6",
-       "pyspark>=3.4.0, <4"]
 
 [build-system]
 requires = [
